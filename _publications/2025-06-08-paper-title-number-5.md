@@ -2,7 +2,6 @@
 title: "From Snapshots to Events: Algorithmic Tradeoffs and Implications for Grid Resilience Metrics"
 collection: publications
 category: conferences
-permalink: /
 excerpt: ''
 date: 2025-12-17
 venue: 'Journal'
