@@ -2,11 +2,14 @@
 title: "From Snapshots to Events: Algorithmic Tradeoffs and Implications for Grid Resilience Metrics"
 collection: publications
 category: conferences
-excerpt: ''
-date: 2025-12-17
-venue: 'Journal'
-paperurl: 'https://Brandon-Michaels.github.io/'
-citation: 'Michaels, Brandon. (2025). &quot;Paper Title Number 3.&quot; <i>Journal</i>. 1(3).'
+status: preprint
+paperurl: 'https://drive.google.com/file/d/1hnjpbLd3FAsNwBnDhj50PH1WstSNJBdi/view?usp=sharing'
+paperurl_label: "Download Preprint (PDF)"
 ---
 
-Coming soon ...
+**Status:** Preprint  
+
+This paper explores algorithmic tradeoffs in transitioning from snapshot-based to event-based resilience metrics for power grid analysis.
+
+A public preprint will be released soon.  
+For now, a draft is available below.
