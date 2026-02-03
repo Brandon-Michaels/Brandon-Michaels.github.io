@@ -2,22 +2,16 @@
    Dark mode color refinements
    ================================ */
 
-/* Only apply in dark mode */
 html[data-theme="dark"] {
+  /* Accent / highlight color (used in headers, buttons, etc.) */
+  --global-base-color: #8fa7bd;
 
-  /* Primary accent color (links, titles) */
-  --mm-color-primary: #9bb3c8;   /* muted steel blue */
+  /* Link colors */
+  --global-link-color: #8fa7bd;
+  --global-link-color-hover: #c7d3df;
+  --global-link-color-visited: #7d93a8;
 
-  /* Link color */
-  --mm-color-link: #9bb3c8;
-  --mm-color-link-hover: #c6d4e1;
-
-  /* Headings (publication titles, section headers) */
-  --mm-color-heading: #e5e7eb;
-
-  /* Subtle dividers */
-  --mm-color-border: #3a3a3a;
-
-  /* Metadata text (Status, Authors, etc.) */
-  --mm-color-text-muted: #b0b7c3;
+  /* Optional: masthead hover accent (top nav) */
+  --global-masthead-link-color-hover: #8fa7bd;
 }
+
