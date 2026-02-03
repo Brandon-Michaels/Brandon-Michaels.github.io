@@ -31,4 +31,8 @@ BS in Computer Science, 2023 – 2026 *(completed in three years)*
 
 ## 📝 Publications & Preprints
 
-Coming soon...
+I’m currently preparing a preprint on **event-based resilience metrics** for power grid analysis:
+**“From Snapshots to Events: Algorithmic Tradeoffs and Implications for Grid Resilience Metrics.”**
+
+→ View all: [Publications & Preprints](/publications/)  
+→ Direct PDF: [Download preprint](https://drive.google.com/file/d/1hnjpbLd3FAsNwBnDhj50PH1WstSNJBdi/view?usp=sharing)
