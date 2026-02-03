@@ -1,0 +1,45 @@
+{% assign p = include.p %}
+
+<div class="project-card">
+  <div class="project-card__media">
+    {% if p.thumbnail %}
+      <a href="{{ p.primary_url | default: p.url | relative_url }}">
+        <img src="{{ p.thumbnail | relative_url }}" alt="{{ p.title }} thumbnail" />
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="project-card__body">
+    <h3 class="project-card__title">
+      {% if p.primary_url %}
+        <a href="{{ p.primary_url }}">{{ p.title }}</a>
+      {% else %}
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      {% endif %}
+    </h3>
+
+    {% if p.tags %}
+      <div class="project-card__tags">
+        {% for t in p.tags %}
+          <span class="project-tag">{{ t }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if p.excerpt %}
+      <p class="project-card__desc">{{ p.excerpt | strip_html }}</p>
+    {% endif %}
+
+    <div class="project-card__links">
+      {% if p.code_url %}
+        <a class="project-link" href="{{ p.code_url }}">Code</a>
+      {% endif %}
+      {% if p.writeup_url %}
+        <a class="project-link" href="{{ p.writeup_url }}">Writeup</a>
+      {% endif %}
+      {% if p.demo_url %}
+        <a class="project-link" href="{{ p.demo_url }}">Demo</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

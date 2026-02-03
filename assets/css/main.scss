@@ -41,3 +41,68 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* === Project cards (Portfolio) === */
+.project-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  align-items: start;
+}
+
+.project-card__media img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-card__title {
+  margin: 0 0 8px 0;
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.project-card__desc {
+  margin: 10px 0 14px 0;
+  max-width: 70ch;
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 6px 0 6px 0;
+}
+
+.project-tag {
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.03);
+}
+
+.project-card__links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+}
