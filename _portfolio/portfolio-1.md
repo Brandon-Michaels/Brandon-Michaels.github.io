@@ -18,12 +18,9 @@ The core approach integrates SARIMA models for structured trend and seasonality 
 The resulting two-stage ensemble improves predictive performance over either method alone by explicitly decomposing the signal into interpretable linear components and flexible nonlinear corrections.
 
 From a trading perspective, forecasts are translated into directional signals and evaluated using rolling-window backtests across multiple commodities. The strategy emphasizes:
-
-robust walk-forward validation
-
-careful leakage prevention
-
-realistic signal generation (no look-ahead bias)
+- robust walk-forward validation
+- careful leakage prevention
+- realistic signal generation (no look-ahead bias)
 
 Performance is assessed using both statistical forecasting metrics (e.g., RMSE, MAE) and financial metrics such as cumulative return and drawdown behavior.
 

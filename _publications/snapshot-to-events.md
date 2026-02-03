@@ -4,6 +4,12 @@ collection: publications
 category: conferences
 paperurl: 'https://drive.google.com/file/d/1hnjpbLd3FAsNwBnDhj50PH1WstSNJBdi/view?usp=sharing'
 paperurl_label: "Download Preprint (PDF)"
+authors:
+  - "Brian An"
+  - "John Kim"
+  - "Keyang Zhong"
+  - "Yiming Ye"
+  - "Brandon Michaels"
 ---
 
 **Status:** Preprint  
