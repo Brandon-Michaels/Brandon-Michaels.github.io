@@ -1,0 +1,23 @@
+/* ================================
+   Dark mode color refinements
+   ================================ */
+
+/* Only apply in dark mode */
+html[data-theme="dark"] {
+
+  /* Primary accent color (links, titles) */
+  --mm-color-primary: #9bb3c8;   /* muted steel blue */
+
+  /* Link color */
+  --mm-color-link: #9bb3c8;
+  --mm-color-link-hover: #c6d4e1;
+
+  /* Headings (publication titles, section headers) */
+  --mm-color-heading: #e5e7eb;
+
+  /* Subtle dividers */
+  --mm-color-border: #3a3a3a;
+
+  /* Metadata text (Status, Authors, etc.) */
+  --mm-color-text-muted: #b0b7c3;
+}
