@@ -106,3 +106,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+.archive__item .page__meta strong {
+  font-weight: 600;
+}
+
+.archive__item .page__meta {
+  font-size: 1.02rem;   /* slightly larger than body */
+  color: var(--global-text-color-light);
+}

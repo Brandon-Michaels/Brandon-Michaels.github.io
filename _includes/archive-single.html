@@ -42,6 +42,12 @@
         {{ post.authors | join: ", " }}
       </p>
     {% endif %}
+  
+    {% if post.abstract %}
+      <p class="archive__item-excerpt" style="margin-top: 0.25em;">
+        {{ post.abstract }}
+      </p>
+    {% endif %}
         
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>

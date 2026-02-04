@@ -10,6 +10,12 @@ authors:
   - "Keyang Zhong"
   - "Yiming Ye"
   - "Brandon Michaels"
+abstract: >
+  We study algorithmic tradeoffs in transitioning from snapshot-based to
+  event-based resilience metrics for power grid analysis. By formalizing event
+  detection and aggregation under realistic grid dynamics, we characterize how
+  design choices impact sensitivity, stability, and interpretability of
+  resilience estimates.
 ---
 
 **Status:** Preprint  
