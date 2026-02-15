@@ -6,7 +6,6 @@ thumbnail: /images/HP-Filter-Gold.png
 excerpt: "Hybrid time-series + ML residual model for commodity forecasting and signal-based backtesting (GTSF Quant Sector)."
 tags: ["Time Series", "XGBoost", "Quant", "Backtesting"]
 code_url: "https://github.com/Brandon-Michaels/SARIMA-XGBoost-Commodities-Strat"
-hide_tags: true
 ---
 
 ## 📈 Ensemble SARIMA–XGBoost Commodities Strategy
