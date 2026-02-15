@@ -3,7 +3,7 @@ title: "Ensemble SARIMA–XGBoost Commodities Strategy"
 collection: portfolio
 date: 2026-02-01
 thumbnail: /images/HP-Filter-Gold.png
-excerpt: "Hybrid time-series + ML residual model for commodity forecasting and signal-based backtesting (GTSF Quant Sector)."
+excerpt: "Hybrid time-series + ML residual model for commodity forecasting and signal-based backtesting (GTSF Quant Sector Commodity ML Team)."
 tags: ["Time Series", "XGBoost", "Quant", "Backtesting"]
 code_url: "https://github.com/Brandon-Michaels/SARIMA-XGBoost-Commodities-Strat"
 ---
