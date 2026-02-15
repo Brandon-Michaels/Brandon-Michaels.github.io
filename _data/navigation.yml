@@ -23,6 +23,7 @@ main:
   - title: "Resume"
     url: /files/Brandon_Michaels_Resume.pdf
     target: "_blank"
+    new_tab: true
 
   - title: "Publications"
     url: /publications/

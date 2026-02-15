@@ -6,6 +6,7 @@ thumbnail: /images/Feature-HeatMap.png
 excerpt: "Classical ML pipeline for breast cancer classification using structured diagnostic features, emphasizing interpretability and clinically relevant evaluation."
 tags: ["Machine Learning", "SVM", "Healthcare AI", "Classification"]
 code_url: "https://github.com/Brandon-Michaels/Breast-Cancer-Detection"
+hide_tags: true
 ---
 ## Breast Cancer Detection using Support Vector Machines
 
