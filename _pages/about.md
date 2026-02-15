@@ -9,11 +9,13 @@ redirect_from:
 
 ## 📚 Bio
 
-I am an incoming **MS Computer Science** student at **Georgia Institute of Technology**, graduating **Spring 2026**, and completing my **BS in Computer Science** in three years.
+Hi I'm Brandon, an incoming **MS Computer Science** student at **Georgia Institute of Technology**, graduating **Spring 2026**, and completing my **BS in Computer Science** in three years.
 
 At Georgia Tech, I am involved in several research initiatives, including the **GROWER Research Lab** (partnered with Sandia National Laboratories) and **Data Science @ GT – CLEF Lab**, advised by **Murilo Gustinelli**.
 
 My research interests include **LLM fine-tuning, robustness, safety, and efficient training**, with current work focused on **RAG drift** and **fast pre-training methods**.
+
+I’m always excited to connect with others working on ML/DL research or related projects, feel free to reach out if you're interested in any of my work.
 
 ## 💼 Industry Experience
 

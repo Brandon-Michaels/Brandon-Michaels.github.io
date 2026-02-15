@@ -9,11 +9,12 @@ code_url: "https://github.com/Brandon-Michaels/SARIMA-XGBoost-Commodities-Strat"
 ---
 
 ## 📈 Ensemble SARIMA–XGBoost Commodities Strategy
+### Role: Quantitative Researcher (Led XGBoost Strategy)
 Georgia Tech Student Foundation (GTSF) – Quantitative Sector
 
-This project explores an ensemble forecasting and trading strategy for commodity markets, combining classical time-series modeling with modern machine learning to capture both linear temporal structure and nonlinear residual dynamics.
+As a Quant Researcher on Georgia Tech’s $2.7M student-managed investment fund, I designed and backtested an ensemble time-series trading strategy for commodity futures, including gold, silver, and oil contracts.
 
-The core approach integrates SARIMA models for structured trend and seasonality modeling with XGBoost regressors trained on SARIMA residuals and engineered exogenous features. SARIMA is first used to model the dominant autoregressive and seasonal components of commodity price series. The residuals—representing nonlinear effects, regime shifts, and higher-order interactions—are then modeled using gradient-boosted decision trees.
+The core approach integrated SARIMA models for structured trend and seasonality modeling with XGBoost regressors trained on SARIMA residuals and engineered exogenous features. SARIMA is first used to model the dominant autoregressive and seasonal components of commodity price series. The residuals, representing nonlinear effects, regime shifts, and higher-order interactions, are then modeled using gradient-boosted decision trees.
 
 The resulting two-stage ensemble improves predictive performance over either method alone by explicitly decomposing the signal into interpretable linear components and flexible nonlinear corrections.
 
@@ -24,4 +25,4 @@ From a trading perspective, forecasts are translated into directional signals an
 
 Performance is assessed using both statistical forecasting metrics (e.g., RMSE, MAE) and financial metrics such as cumulative return and drawdown behavior.
 
-This work was conducted as part of the Georgia Tech Student Foundation Quantitative Sector, emphasizing research rigor, reproducibility, and practical constraints faced in real-world quantitative strategies.
+This work was conducted as part of the Georgia Tech Student Foundation Quantitative Sector. I was part of a multi-student research team. Each of the analysts worked on a different model that we ensembled together for our strategy. Our backtest results yielded improved Sharpe from 0.58 to 0.94 and the portfolio had CAGR of 2.8% over a 5 year period.
